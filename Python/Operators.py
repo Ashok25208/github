@@ -9,6 +9,7 @@ age = int("20")
 print(age)
 float_value = 0.6575
 intFractiontoInt = int(float_value)
+print(float_value)
 print(intFractiontoInt)
 #Operators
 ##assignment Operators
