@@ -43,3 +43,16 @@ print(English > Tamil)
 print(Science < Social_science )
 print(Science <= Maths )
 print(Tamil != English)
+### Boolean Operators
+## not, or & and
+status = False
+Character = True
+print(not status)
+print("before or operation")
+print(status or Character)
+print("OR will always check the first operand not to be false \n and returns the other operand")
+print(Character or status)
+print("before and operation")
+print(Character and status)
+print("AND will always check the first operand to be True \n and returns other operand if condition satisfied")
+print(status and Character)
