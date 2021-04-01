@@ -25,6 +25,21 @@ score *= 2
 print(score)
 score /= 2
 print(score)
-score %= 3
+score %= 6
+print(score)
+score **= 2
+print(int(score))
+score //=3
 print(score)
 ###Comparison Operators
+Tamil = 75
+English = 85
+Maths = 80
+Science = 85
+Social_science = 90
+print(Science==English)
+print(Social_science >= Science)
+print(English > Tamil)
+print(Science < Social_science )
+print(Science <= Maths )
+print(Tamil != English)
