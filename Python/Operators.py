@@ -56,3 +56,41 @@ print("before and operation")
 print(Character and status)
 print("AND will always check the first operand to be True \n and returns other operand if condition satisfied")
 print(status and Character)
+##Ternary Operators
+print("Ternary operator")
+a = 10
+b = 21
+print(a) if a > b else print(b)
+##String Built in Methods
+name = "AshokPandianSomasundaram"
+alphanumeric_name = "Ashok20"
+age = "32423"
+lower_name = "ashokpandiansomasundaram"
+upper_name = "ASHOK"
+attitude = "My thoughts are genuine"
+print(name.isalpha())
+print(alphanumeric_name.isalnum())
+print(age.isdecimal())
+print(name.lower())
+print(lower_name.islower())
+print(upper_name.isupper())
+print(lower_name.upper())
+print(name.title())
+print(name.startswith("Ashok"))
+print(name.endswith("ram"))
+print(len(name))
+print(name[0])
+print(upper_name[-1])
+print(attitude.strip())
+print(attitude.find("are"))
+print(attitude.join("* "))
+print(attitude.split("t"))
+print(attitude.split())
+print("are" in attitude)
+print("Ash\"ok")
+print("Ashok\tPandian")
+print("Ashok\nPandian")
+print("Ashok\\Pandian")
+print(lower_name[0:2])
+print(lower_name[2:])
+print(lower_name[1:8])
