@@ -16,4 +16,4 @@ elif age > 35:
  print('Arun');
 else:
  print('******Aashu******');
-#basic for loop
+#basic for loops
